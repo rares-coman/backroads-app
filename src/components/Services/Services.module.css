@@ -1,0 +1,39 @@
+.services {
+    background: var(--clr-grey-10);
+
+}
+
+.section {
+    padding: 5rem 0;
+    scroll-margin-top: 4rem;
+}
+
+.service {
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.sectionCenter {
+    width: 90vw;
+    margin: 0 auto;
+    max-width: 1170px;
+}
+
+@media screen and (min-width:576px) {
+    .servicesCenter {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 2rem;
+    }
+
+}
+
+@media screen and (min-width: 992px) {
+    .servicesCenter {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .sectionCenter {
+        width: 95vw;
+    }
+}

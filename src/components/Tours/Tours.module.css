@@ -1,0 +1,30 @@
+.section {
+    padding: 5rem 0;
+    scroll-margin-top: 4rem;
+}
+
+.sectionCenter {
+    width: 90vw;
+    margin: 0 auto;
+    max-width: 1170px;
+}
+
+@media screen and (min-width: 768px) {
+    .featuredCenter {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 2rem;
+    }
+}
+
+@media screen and (min-width: 1170px) {
+    .featuredCenter {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .sectionCenter {
+        width: 95vw;
+    }
+}
